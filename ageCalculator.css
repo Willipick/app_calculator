@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body {
+    background-color: hsl(0, 0%, 86%);
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+div.mainDiv {
+    font-size: 1em;
+    width: 60rem;
+    height: 50rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 15rem;
+}
+
+.boxTitle {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: hsl(0, 1%, 44%);
+}
+
+div#dayBoxDiv {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+
+div#monthBoxDiv {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+    margin-top: 4rem;
+
+}
+
+div#yearBoxDiv {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.boxDiv {
+    width: 12rem;
+}
+
+input.dateBox {
+    width: 10rem;
+    height: 5rem;
+}
+
+div.errorDiv {
+    margin-left: 4rem;
+    width: 35rem;
+    height: 3rem;
+    color: red;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+div.separation {
+    width: 60rem;
+    height:8rem;
+}
+
+.sep {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.separation button {
+    background-color: hsl(259, 100%, 65%);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+}
+
+
+div.result {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    height: 8rem;
+    margin-left: 8rem;
+}
+
+p.year {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -1rem;
+}
+
+p#years {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.month {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: -2rem;
+}
+
+p#months {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+
+p#numberYear {
+    color: hsl(259, 100%, 65%);
+    font-size: 7rem;
+    margin-right:2rem;
+}
+
+p#numberMonth {
+    color: hsl(259, 100%, 65%);
+    font-size: 7rem;
+    margin-right:2rem;
+}
+
+p#numberDay {
+    color: hsl(259, 100%, 65%);
+    font-size: 7rem;
+    margin-right:2rem;
+}
+
+
+
+.day {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: -2rem;
+
+}
+
+p#days {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
